@@ -1,4 +1,4 @@
-# 🗂️ Portfólio Pessoal — Júlia Gabrielly
+# 🗂️ Portfólio Pessoal — Júlia Gabriely
 
 > *"Desenvolvimento com Propósito"*
 
