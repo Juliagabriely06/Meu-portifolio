@@ -116,4 +116,4 @@ Reflete meu interesse em unir tecnologia e educação, criando interfaces acess�
 
 ---
 
-<p align="center">Desenvolvido com 💙 e propósito por <strong>Júlia Gabrielly</strong></p>
+<p align="center">Desenvolvido com 💙 e propósito por <strong>Júlia Gabriely</strong></p>
