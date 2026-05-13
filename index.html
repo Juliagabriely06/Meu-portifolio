@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER — fixo no topo, visível em todas as seções
+============================================================ -->
+<header class="header">
+    <nav class="container">
+        <div class="logo">Portfolio<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ============================================================
+     MAIN — todas as seções de conteúdo ficam aqui dentro
+============================================================ -->
+<main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-up">Desenvolvimento com <span>Propósito</span></h1>
+            <p class="fade-in-delay">
+                Construindo interfaces inteligentes e soluções focadas na educação.
+            </p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn-secondary">Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="about">
+        <div class="container-about">
+
+            <div class="about-text">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Aos 20 anos, moro em Alagoas e sigo uma trajetória dupla: curso
+                    <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong> no CESMAC
+                    e <strong>Pedagogia</strong> na UFAL.
+                </p>
+                <p>
+                    Meu objetivo é unir tecnologia e educação, criando interfaces que
+                    facilitem o aprendizado. Sou focado em transformar ideias em código
+                    através do desenvolvimento Front-end.
+                </p>
+
+                <div class="skills-tags">
+                    <h3>Minha Stack:</h3>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span class="highlight">Python</span>
+                    <span>Git &amp; GitHub</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="projects">
+        <div class="container-projects">
+            <h2 class="fade-up">Meus Projetos</h2>
+
+            <div class="project-grid">
+
+                <div class="project-card fade-in">
+                    <div class="project-info">
+                        <h3>Automação &amp; Lógica de Programação</h3>
+                        <p>Resolução de desafios técnicos envolvendo lógica avançada,
+                           scripts em Bash e automação de fluxos com Git e GitHub.</p>
+                        <div class="project-tags">
+                            <span>Lógica</span>
+                            <span>Bash</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="animation-delay: 0.1s;">
+                    <div class="project-info">
+                        <h3>Sistema de Gestão de Produtividade</h3>
+                        <p>Aplicação para monitoramento de tarefas e organização pessoal,
+                           focada em uma experiência de usuário (UX) intuitiva.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="animation-delay: 0.2s;">
+                    <div class="project-info">
+                        <h3>Sistema de Gestão Escolar</h3>
+                        <p>Ferramenta para cálculo e monitoramento de desempenho acadêmico,
+                           unindo lógica de programação e necessidades pedagógicas.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Lógica</span>
+                            <span>Educação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="animation-delay: 0.3s;">
+                    <div class="project-info">
+                        <h3>Clone de Interface: Streaming</h3>
+                        <p>Replicando a experiência visual de uma plataforma de streaming
+                           (Netflix), com foco em responsividade e design de interface.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>UI Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" style="animation-delay: 0.4s;">
+                    <div class="project-info">
+                        <h3>Landing Page: Agência de Viagens</h3>
+                        <p>Interface moderna voltada para o setor de turismo, explorando
+                           componentes interativos e layouts otimizados para conversão.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /project-grid -->
+        </div><!-- /container-projects -->
+    </section>
+
+    <!-- CONTATO — seção semântica separada do footer -->
+    <section id="contato" class="contact">
+        <div class="container-contact">
+            <h2>Vamos conversar?</h2>
+            <p>Estou sempre aberto a novos desafios e colaborações
+               na área de tecnologia e educação.</p>
+            <div class="contact-links">
+                <a href="https://github.com/juliagabriely06"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/júlia-gabrielly-0381933a6"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=gabriellyjulia0604@gmail.com">E-mail</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER — apenas copyright, fora do main
+============================================================ -->
+<footer class="footer">
+    <p class="copyright">&copy; 2026 &mdash; Desenvolvido com Propósito.</p>
+</footer>
+
+</body>
+</html>
